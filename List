@@ -1,0 +1,14 @@
+# Odd or Even Number problem
+num=int(input("enter a number \n"))
+if num%2==0:
+    print ("the number you have entered is even")
+else:
+        print ("the number you have entered is odd")
+        
+ # Palindrome
+ st=input("enter a string:")
+rvs=st[::-1]
+if st==rvs:
+    print (rvs,"is a palindrome")
+   else:
+    print (st,"is not a palindrome")
